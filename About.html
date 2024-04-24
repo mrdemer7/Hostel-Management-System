@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Tracker System - About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapchn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!----- Sub-header ----->
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./img/logo.png" alt="Pic Loading"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+
+<!----------- About Us Content ---------->
+
+<section class="about-us">
+
+    <div class="row">
+       <div class="about-col">
+        <h1>we are the world's largest Tracker System</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis possimus culpa iure aliquam explicabo sapiente veritatis dolorum. Quia, harum debitis. Qui itaque facere numquam dolores aspernatur ipsum natus unde et.</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+       </div>
+       <div class="about-col">
+        <img src="./img/about.jpg" alt="">
+       </div>
+    </div>
+
+</section>
+
+<!----- Footer ----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi ducimus doloremque. Natus molestias <br> cumque aspernatur voluptatum aperiam tempore tenetur.</P>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> Zulqarnain Raja</p>
+</section>
+
+<!-- JavaScript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
